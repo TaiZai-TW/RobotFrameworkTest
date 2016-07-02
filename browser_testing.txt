@@ -1,0 +1,24 @@
+*** Settings ***
+Library    Selenium2Library    timeout=10    implicit_wait=1.5
+Suite Setup    Go to homepage
+Suite Teardown    Close Browser
+
+*** Variables ***
+${HOMEPAGE}    https://www.google.co.uk
+${BROWSER}    ff
+
+*** Test Case ***
+Google ruckus wireless and find result
+    Google and check results    ruckus wireless   Ruckus Wireless, Inc.:British | Ruckus Wireless    Ruckus Headquarters
+
+*** Keywords ***
+Google and check results
+    [Arguments]    ${searchkey}    ${linktitle}    ${result}
+    Input Text   id=lst-ib    ${searchkey}
+    Click Button    name=btnG
+    Click Link    link=${linktitle}
+    Wait Until Page Contains    ${result}
+    Capture Page Screenshot    screenshot.png
+
+Go to homepage
+    Open Browser    ${HOMEPAGE}    ${BROWSER}
