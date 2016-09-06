@@ -21,6 +21,3 @@ Test built-in keywords2
 
 Test built-in keywords3
 	And Exec ls command
-
-Test built-in keyword4
-	And Exec fail command
