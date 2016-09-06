@@ -9,7 +9,8 @@ Exec ping command
 	Run  ping tw.yahoo.com -c 5
 
 Exec fail command
-    Run  ls -al 1/2/3/4/5
+    ${a}=  3
+	Should be equal  ${a}  2
 
 *** Test Cases ***
 Test built-in keywords
