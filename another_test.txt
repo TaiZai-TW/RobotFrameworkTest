@@ -1,0 +1,14 @@
+*** Settings ***
+Library  OperatingSystem
+
+*** Keywords ***
+Exec ls command
+	Run  ls -al
+
+Exec ping command
+	Run  ping tw.yahoo.com -c 5
+
+*** Test Cases ***
+Test built-in keywords
+	Given Exec ls command
+	Then Exec ping command
