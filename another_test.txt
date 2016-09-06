@@ -21,3 +21,54 @@ Test built-in keywords2
 
 Test built-in keywords3
 	And Exec ls command
+
+Test built-in keywords4
+	And Exec ls command
+
+Test built-in keywords5
+	And Exec ls command
+
+Test built-in keywords6
+	And Exec ls command
+
+Test built-in keywords7
+	And Exec ls command
+
+Test built-in keywords8
+	And Exec ls command
+
+Test built-in keywords9
+	And Exec ls command
+
+Test built-in keywords10
+	And Exec ls command
+
+Test built-in keywords11
+	And Exec ls command
+
+Test built-in keywords12
+	And Exec ls command
+
+Test built-in keywords13
+	And Exec ls command
+
+Test built-in keywords14
+	And Exec ls command
+
+Test built-in keywords15
+	And Exec ls command
+
+Test built-in keywords16
+	And Exec ls command
+
+Test built-in keywords17
+	And Exec ls command
+
+Test built-in keywords18
+	And Exec ls command
+
+Test built-in keywords19
+	And Exec ls command
+
+Test built-in keywords20
+	And Exec fail command
