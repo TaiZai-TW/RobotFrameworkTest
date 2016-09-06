@@ -15,6 +15,12 @@ Exec fail command
 *** Test Cases ***
 Test built-in keywords
 	Given Exec ls command
+
+Test built-in keywords2
 	Then Exec ping command
+
+Test built-in keywords3
 	And Exec ls command
+
+Test built-in keyword4
 	And Exec fail command
