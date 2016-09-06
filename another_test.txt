@@ -8,7 +8,12 @@ Exec ls command
 Exec ping command
 	Run  ping tw.yahoo.com -c 5
 
+Exec fail command
+    Run  ls -al 1/2/3/4/5
+
 *** Test Cases ***
 Test built-in keywords
 	Given Exec ls command
 	Then Exec ping command
+	And Exec ls command
+	And Exec fail command
