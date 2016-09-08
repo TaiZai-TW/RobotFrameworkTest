@@ -65,10 +65,10 @@ Test built-in keywords17
 	And Exec ls command
 
 Test built-in keywords18
-	And Exec ls command
+	And Exec fail command
 
 Test built-in keywords19
-	And Exec ls command
+	And Exec fail command
 
 Test built-in keywords20
 	And Exec fail command
