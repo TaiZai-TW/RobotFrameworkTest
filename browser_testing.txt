@@ -11,4 +11,5 @@ Exec ping command
 *** Test Cases ***
 Test built-in keywords
 	Given Exec ls command
+	Then Sleep  5 minutes
 	Then Exec ping command
